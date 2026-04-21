@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+
+    <!-- link:favicon -->
+    <link rel="shortcut icon"
+        href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhN4UsuznQjTXZuuBAgDfSxEa9NLAtkYFoc0XDChWvkY5wVSCeUV9cULzmMF8pJwCaaJ_cLknNoaLSM56ZqJdzsEYiTRoZPcR0GfxKUHVYygLDHXL-o4eVvy49px7KrbJEjFi-YLhNu-S4aKG78noEUVLWWsuk9Tjr9S56rRgFLFIJLgiB9IadmFguOLgmV/s1894/icon.webp"
+        type="image/x-icon">
+
+    <!-- meta:desc -->
+    <meta name="description" content="This is the student information form ">
+
+    <!-- meta og  -->
+</head>
+
+<body>
+    <form action="#php" method="post">
+
+        <div class="box">
+            <label for="nm">Name: </label>
+            <input type="text" placeholder="Name" name="Student name" id="nm" required>
+        </div> <br>
+
+        <div class="box">
+            <label for="fn">Father's Name: </label>
+            <input type="text" placeholder="Father's Name" name="Father's Name" id="fn" required>
+        </div> <br>
+
+        <div class="box">
+            <label for="mn">Mother's Name: </label>
+            <input type="text" placeholder="Mother's Name" name="Mother's Name" id="mn" required>
+        </div> <br>
+
+        <div class="box">
+            <label for="Adhar">Adhar Card No: </label>
+            <input type="number" placeholder="Adhar Card No" name="Adhar Card" id="Adhar" required>
+        </div> <br>
+
+        <div class="box">
+            <label for="dob">DOB: </label>
+            <input type="date" name="DOB" id="dob" required>
+        </div> <br>
+
+        <div class="box">
+            <label>Gender:</label>
+
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+
+            <input type="radio" name="gender" id="other" value="other">
+            <label for="other">Other</label>
+        </div> <br>
+
+
+        <div class="box">
+            <label for="Mob">Mob. </label>
+            <input type="tel" name="Mob" id="Mob" required placeholder="Enter 10-digit number">
+        </div> <br>
+
+        <!-- Dropdown Start  -->
+        <!-- Country -->
+        <div class="box">
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="IN" selected>India</option>
+                <option value="NP">Nepal</option>
+                <option value="PK">Pakistan</option>
+                <option value="US">USA</option>
+                <option value="AE">Dubai (UAE)</option>
+                <option value="BD">Bangladesh</option>
+            </select>
+        </div> <br>
+
+        <!-- State -->
+        <div class="box">
+            <label for="state">State:</label>
+            <select id="state" name="state">
+                <option value="">Select State</option>
+
+                <option>Andhra Pradesh</option>
+                <option>Arunachal Pradesh</option>
+                <option>Assam</option>
+                <option>Bihar</option>
+                <option>Chhattisgarh</option>
+                <option>Goa</option>
+                <option>Gujarat</option>
+                <option>Haryana</option>
+                <option>Himachal Pradesh</option>
+                <option>Jharkhand</option>
+                <option>Karnataka</option>
+                <option>Kerala</option>
+                <option>Madhya Pradesh</option>
+                <option>Maharashtra</option>
+                <option>Manipur</option>
+                <option>Meghalaya</option>
+                <option>Mizoram</option>
+                <option>Nagaland</option>
+                <option>Odisha</option>
+                <option>Punjab</option>
+                <option>Rajasthan</option>
+                <option>Sikkim</option>
+                <option>Tamil Nadu</option>
+                <option>Telangana</option>
+                <option selected>Uttar Pradesh</option>
+                <option>Uttarakhand</option>
+                <option>West Bengal</option>
+            </select>
+        </div> <br>
+
+        <!-- City -->
+        <div class="box">
+            <label for="city">City:</label>
+            <select id="city" name="city">
+                <option value="">Select City</option>
+
+                <!-- Uttar Pradesh Cities -->
+                <option selected>Prayagraj</option>
+                <option>Lucknow</option>
+                <option>Varanasi</option>
+                <option>Kanpur</option>
+                <option>Gorakhpur</option>
+                <option>Ayodhya</option>
+                <option>Agra</option>
+                <option>Noida</option>
+                <option>Ghaziabad</option>
+                <option>Meerut</option>
+                <option>Bareilly</option>
+                <option>Aligarh</option>
+                <option>Jhansi</option>
+                <option>Moradabad</option>
+                <option>Saharanpur</option>
+
+                <!-- Nearby Cities (MP, Bihar, Uttarakhand etc.) -->
+                <option>Rewa</option>
+                <option>Satna</option>
+                <option>Jabalpur</option>
+                <option>Patna</option>
+                <option>Gaya</option>
+                <option>Dehradun</option>
+                <option>Haridwar</option>
+                <option>Haldwani</option>
+                <option>Ranchi</option>
+                <option>Varanasi Rural</option>
+                <option>Mirzapur</option>
+                <option>Chitrakoot</option>
+            </select>
+        </div> <br>
+
+        <!-- Dropdown Start  -->
+        <!-- Details -->
+        <div class="box">
+            <details>
+                <summary>What is HTML?</summary>
+                <p>HTML is used to create structure of a webpage.</p>
+            </details>
+
+            <details open>
+                <summary>What is CSS?</summary>
+                <p>CSS is used to style the webpage.</p>
+            </details>
+        </div> <br>
+
+        <div class="btn">
+            <!-- <input type="button" value=""> -->
+            <button type="button">Submit</button>
+            <button type="reset">Clear</button>
+        </div>
+
+
+
+
+    </form>
+</body>
+
+</html>
