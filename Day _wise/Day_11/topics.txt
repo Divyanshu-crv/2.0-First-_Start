@@ -1,0 +1,10 @@
+
+div{
+    background : linear-gradient(to right, red, yellow) ;
+    background : radial-gradient(circle, blue, white) ;
+    background : conic-gradient(red, yellow, green, blue, red) ;
+
+    background-image:url(one.jpg) ;
+    background-size: cover ;
+        cover :
+}
