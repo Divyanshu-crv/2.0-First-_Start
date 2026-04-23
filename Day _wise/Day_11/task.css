@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: a;
+    src: url(../../resourc/font/three.otf);
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-image: url(../../resourc/img/two.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.box{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(246, 243, 243, 0.311);
+    padding-top: 50px;
+    text-align: center;
+}
+
+h1{
+    font-family: a;
+    font-size: 30px;
+}
+
+button{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    /* transform: translate(-50%,-50%); */
+    border-radius: 30px;
+    width: 60px;
+    
+}
+
+
+
+
+
