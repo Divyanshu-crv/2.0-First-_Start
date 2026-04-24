@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #333;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    /* background-color: blue; */
+    /* border-radius: 0 20px 20px  0 ; */
+
+    background-image: url(../../../resourc/img/three.webp);
+    background-size: cover;
+    background-position: top;
+
+    border-radius: 0 0 10px 0;
+
+    position: relative;
+
+    box-shadow:  12px 15px 10px rgba(3, 2, 2, 0.296);
+}
+
+.inner_box{
+    height: 90px;
+    width: 90px;
+    /* border-radius: 50%; */
+    background-color: cornflowerblue;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+
+    background-image: url(../../../resourc/img/eight.webp);
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 30px 0 10px 0;
+}
+
+@font-face {
+    font-family: a;
+    src: url(../../../resourc/font/formal/As-seen-on-TV-Skew/AsseenonTV_s.ttf);
+}
+h3{
+    position: absolute;
+    top: 30vh;
+    right: 10vw;
+    font-family: a;
+
+    text-shadow: 12px -8px 2px black;
+}
+
+
+
+
+
+

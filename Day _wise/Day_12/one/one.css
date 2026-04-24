@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: a;
+    src: url(../../../resourc/font/formal/one/Action_Force.ttf);
+}
+@font-face {
+    font-family: b;
+    src: url(../../../resourc/font/formal/two/Agency.ttf);
+}
+@font-face {
+    font-family: c;
+    src: url(../../../resourc/font/formal/three/bodidly1.ttf);
+}
+ 
+.main{
+    height: 130%;
+    width: 100%;
+    background-color: antiquewhite;
+    background-image: url(../../../resourc/img/four.webp);
+    background-size: cover;
+    background-position: center;
+}
+ 
+
+.navbar h3{
+    display: inline-block;
+    font-size: 8px;
+    font-family: b;
+    /* text-align: center; */
+    margin: 0 10px;
+    letter-spacing: 0.5px;
+
+}
+
+.navbar{
+    height: 20px;
+    width: 100%;
+    background-color: transparent;
+    /* background-color: brown; */
+    position: fixed;
+    top: 0;
+    text-align: center;
+    /* margin: 0 45%; */
+
+}
+
+
+
+

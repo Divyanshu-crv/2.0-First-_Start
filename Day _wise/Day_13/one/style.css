@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    background-color: #333;
+}
+
+@font-face {
+    font-family: a;
+    src: url(../../../resourc/font/formal/one/Action_Force.ttf);
+}
+
+@font-face {
+    font-family: b;
+    src: url(../../../resourc/font/formal/five/chiqn.ttf);
+}
+
+@font-face {
+    font-family: c;
+    src: url(../../../resourc/font/formal/As-seen-on-TV/AsseenonTV.ttf);
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.14);
+
+    padding-top: 17px;
+    /* 
+    jo text nav ke piche chala ja raha hao usko control nahikarpa raha hu 
+    */
+
+    overflow-y: hidden;
+    
+}
+
+/* /////////////////////////////////////// */
+
+.navbar{
+    /* background-color: white; */
+    background-color: transparent;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    height: 17px; 
+    width: 100%;
+    /* font-weight: ; */
+    text-transform: capitalize;
+    font-family: b;
+
+    padding: 0;
+    letter-spacing: 1px;
+
+
+}
+
+.navbar h4{
+    display: inline-block;
+}
+
+.nav_lft{
+    margin-left: 5px;
+    /* gap: 10px; */
+}
+
+.nav_cnt{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 20px 0 150px;
+}
+
+.nav_ret{
+    margin: 0 0px 0 105px;
+    /* gap: 20px; */
+}
+
+/* //////////////////////////////////////// */
+
+.txt{
+    /* background-color: red; */
+    height: 140px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    font-size: 75px;
+    text-align: center;
+}
+
+/* //////////////////////////////////////////// */
+
+.lft_btm{
+    /* background-color: red; */
+    height: 120px;
+    /* width: 30%; */
+    width: 20%;
+    padding-left: 10px;
+}
+
+.uper{
+    /* border: 1ps solid green; */
+    height: 40%;
+    width: 100%;
+    /* background-color: black; */
+}
+
+.uper h4{
+    font-size: 8px;
+    text-transform: capitalize;
+    font-family: c;
+}
+
+.uper p{
+    font-size: 5px;
+    text-align: justify;
+}
+
+/* ----------------------- */
+
+.cnt{
+    /* background-color: rgba(255, 235, 205, 0.337); */
+    padding-top: 0px;
+    text-transform: capitalize;
+}
+
+.cnt h4{
+    font-size: 6px;
+    font-family: c;
+    }
+
+.cnt p{
+    font-size: 5px;
+}
+/* ------------------- */
+
+.btm{
+    /* background-color: #333; */
+    font-family: c;
+    font-size: 5px;
+    text-transform: capitalize;
+    margin-top: 17px;
+    letter-spacing: 0.5px;
+}
+
+/* ////////////////////////////////// */
+
+.right_btm{
+    /* background-color: blue; */
+    height: 30px;
+    width: 100px;
+         
+  position: absolute;
+  top: 93%;
+  right: 6px;
+}
+
+.right_btm h3{
+    font-family: c;
+    font-size: 8px;
+}
+
+.right_btm .ri-arrow-right-long-fill{
+    margin-left: 6px;
+}
+
+/* ////////////////////////////////////////// */
+.box{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    border-radius: 2px;
+}
+
+.box_1{
+    width: 70px;
+    background-image: url(../../../resourc/img/five.webp);
+    background-size: cover;
+    background-position: center;
+
+    top: 52%;
+    left: 40%;
+
+    /* z-index: 1; */
+}
+
+.box_2{
+    background-image: url(../../../resourc/img/four.webp);
+    background-size: cover;
+    background-position: top;
+
+    top: 65%;
+    left: 51%;
+}
+
+.box_3{
+    height: 110px;
+    background-image: url(../../../resourc/img/three.webp);
+    background-size: cover;
+    background-position: center;
+
+    top: 30%;
+    left: 62%;
+}
+
+
+
+
+
+
+
+
+
+
