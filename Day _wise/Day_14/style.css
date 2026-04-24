@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+@font-face {
+    font-family: a;
+    src: url(recoleta-bold-woff-fe49cb.woff);
+}
+@font-face {
+    font-family: b;
+    src: url(../../resourc/font/formal/As-seen-on-TV/AsseenonTV.ttf);
+}
+.nav a{
+    text-decoration: none;
+    font-size: 8px;
+}
+.nav{
+    /* text-align: center; */
+    font-size: b;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    gap: 7px;
+    /* background-color: black; */
+    background-color: transparent;
+    color: white;
+}
+
+.img{
+    background-image: url(../../resourc/img/Day_14/iphone.jpg);
+    background-size:cover ;
+    background-position: top;
+    /* padding-top: 20px; */
+}
+
+
+
+
+
+
+
+
