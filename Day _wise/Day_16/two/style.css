@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 255, 255, 0.471);
+    padding: 10px;
+    display: flex;
+    perspective: 1000px;
+}
+
+.card{
+    height: 80px;
+    width: 80px;
+    background-color: rgba(0, 0, 255, 0.389);
+    border: 1px solid white;
+    border-radius: 2px;
+    margin: 20px;
+}
+
+.box_1:hover{
+    transform: rotate(60deg);
+    /* transition: all ease 1s; */
+    transition: all ease 3s;
+}
+
+.box_2:hover{
+    transform: rotateX(50deg);
+    transition: all ease 0.8s;
+
+}
+
+.box_3:hover{
+    transform: rotateY(80deg);
+    transition: all ease 0.8s;
+}
+
+.sc:hover{
+    transform: scale(0.5);
+    transition: all ease 0.8s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
