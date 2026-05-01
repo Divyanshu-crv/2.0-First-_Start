@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: bold;
+
+  background-image: url("https://picsum.photos/500/300");
+
+  -webkit-background-clip: text;
+  /* -webkit-text-fill-color: transparent; */
+  color: transparent;
+}
